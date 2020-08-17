@@ -53,6 +53,10 @@ body {
     font-weight: bolder;
 }
 
+.active {
+    font-weight: bolder;
+}
+
 .signin {
     width: 30%;
     float:left;
@@ -97,6 +101,16 @@ body {
     text-align: center;
     font-size: 40px;
     margin-bottom: 50px;
+}
+
+.bio img {
+    width: 20%;
+    border-radius: 100%;
+    margin-bottom: 30px;
+}
+
+.bio-reduced {
+    font-size: 25px;
 }
 
 .social-media {
