@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/* Pattern from https://www.transparenttextures.com/ */
+body {
+    background-color: #f0f0f0;
+    background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+}
+
+.header {
+    width: 100%;
+    float: left;
+    padding-top: 0px;
+    line-height: 200px;
+}
+
+.logo {
+    width: 30%;
+    float:left;
+    text-align: center;
+}
+
+.logo img {
+    width: 20%;
+    border-radius: 100%;
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo span {
+    font-size: 25px;
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu {
+    width: 40%;
+    float:left;
+    font-size: 20px;
+    text-align: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover {
+    font-weight: bolder;
+}
+
+.signin {
+    width: 30%;
+    float:left;
+    text-align: center;
+}
+
+.signin a {
+    text-decoration: none;
+    color: white;
+    background: black;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.signin a:hover {
+    color: black;
+    background: white;
+    border: 1px solid black;
+}
+
+.introduction {
+    width: 100%;
+    float: left;
+}
+
+.hi {
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.hi h1 {
+    font-size: 200px;
+}
+
+.bio {
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.social-media {
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-bottom: 100px;
+    
+}
+.icon {
+    padding: 10px;
+}
+.icon i {
+    font-size: 40px;
+    cursor: pointer;
+}
